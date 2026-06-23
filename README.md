@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Reliable Engineering
 
-## Getting Started
+Marketing website for Reliable Engineering — a Saudi Arabia–based engineering firm delivering civil, electrical, mechanical, and IT solutions.
 
-First, run the development server:
+Built with **Next.js 14** (App Router), **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Prerequisites
+
+- **Node.js 18+** (LTS recommended)
+- **npm** (comes with Node)
+
+## Local setup
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <your-repo-url>
+   cd reliable-engineering
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Configure environment variables**
+
+   Copy `.env.example` to `.env.local` and set your admin credentials:
+
+   ```bash
+   ADMIN_USERNAME=admin
+   ADMIN_PASSWORD=your_strong_password
+   ADMIN_SESSION_SECRET=your_random_secret_string
+   ```
+
+   See [Environment variables](#environment-variables) below for details.
+
+4. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000).
+
+## Admin access
+
+The admin panel uses username/password authentication:
+
+1. Run the app (`npm run dev`) or visit your deployed site.
+2. Go to **`/admin/login`** (e.g. `http://localhost:3000/admin/login`).
+3. Sign in with the credentials from your `.env.local` file.
+
+The dashboard at `/admin` is a full CMS — edit services, case studies, blog posts, careers, enquiries, banner, about page, certifications, industries, divisions, team, and site settings without touching code.
+
+Content is stored in `data/cms-store.json` (created automatically on first run from seed data). Uploaded images are saved to `public/uploads/`.
+
+### CMS sections
+
+| Sidebar | What you can edit |
+|---------|-------------------|
+| Dashboard | Overview stats and recent activity |
+| Blog Posts | Add, edit, publish articles |
+| Case Studies | Project portfolio entries |
+| Careers | Job listings |
+| Career Applications | View applicant submissions |
+| New Enquiries | Contact form submissions |
+| Services | Service listings with status and categories |
+| Industries | Homepage industry cards |
+| Banner Management | Hero headline, buttons, stats |
+| About Us | About, privacy, and terms page content |
+| Certifications | About page certification badges |
+| Divisions | Engineering division pages |
+| Team Members | Leadership and team profiles |
+| Company Values | About page value cards |
+| Why Us Stats | Homepage statistics |
+| Site Settings | Site name, contact info, social links |
+
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start Next.js dev server |
+| `npm run build` | Production build |
+| `npm run start` | Serve production build |
+| `npm run lint` | Run ESLint |
+| `npm run type-check` | TypeScript check without emit |
+
+## Deploy to Vercel
+
+1. Push the repo to **GitHub** (or GitLab/Bitbucket).
+2. In [Vercel](https://vercel.com), click **Add New Project** and import the repository.
+3. Vercel detects **Next.js** automatically (`vercel.json` sets framework and build/install commands).
+4. Add all [environment variables](#environment-variables) in **Project → Settings → Environment Variables** for Production (and Preview if needed).
+5. Deploy. Vercel runs `npm install` and `npm run build` on each push.
+
+### Docker / standalone output
+
+`next.config.mjs` sets `output: 'standalone'` for Docker-compatible builds. After `npm run build`, the standalone server is in `.next/standalone`.
+
+## Environment variables
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `ADMIN_USERNAME` | Yes | Admin login username (default: `admin`) |
+| `ADMIN_PASSWORD` | Yes | Admin login password |
+| `ADMIN_SESSION_SECRET` | Recommended | Secret for signing session cookies (falls back to password in dev) |
+
+Never commit `.env.local` or secrets to git.
+
+## Project structure
+
+```
+src/
+  app/              # Next.js App Router pages and API routes
+  components/       # UI, layout, and section components
+  lib/              # Content, auth, SEO, types
+  styles/           # Global CSS
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## License
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Private — Reliable Engineering.

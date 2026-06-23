@@ -1,0 +1,2224 @@
+{
+  "profileVersion": 7,
+  "siteSettings": {
+    "_id": "siteSettings",
+    "_type": "siteSettings",
+    "siteName": "Reliable Company",
+    "tagline": "Collaborate, Communicate, Complete. Project Management & Engineering consultancy for industrial and infrastructure projects across Saudi Arabia.",
+    "phone": "+966 56 391 3902",
+    "email": "info@reliablecompany.sa",
+    "address": "8648, Prince Muteb Street, Al Aziziyah District, Jeddah, Saudi Arabia. P.O. Box: 23342",
+    "linkedIn": "https://www.linkedin.com/company/reliablecompany",
+    "siteNameAr": "شركة ريلايبل",
+    "twitter": "",
+    "logo": {
+      "_type": "image",
+      "src": "/logo.png",
+      "alt": "Reliable Company"
+    }
+  },
+  "navbar": {
+    "consultationText": "Get Consultation",
+    "consultationTextAr": "احصل على استشارة",
+    "consultationLink": "/contact",
+    "arabicLabel": "عربي",
+    "mainLinks": [
+      {
+        "label": "Home",
+        "labelAr": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "labelAr": "من نحن",
+        "href": "/about"
+      },
+      {
+        "label": "Career",
+        "labelAr": "الوظائف",
+        "href": "/careers"
+      },
+      {
+        "label": "Contact",
+        "labelAr": "اتصل بنا",
+        "href": "/contact"
+      }
+    ],
+    "resourcesLinks": [
+      {
+        "label": "Blog",
+        "labelAr": "المدونة",
+        "href": "/blog"
+      },
+      {
+        "label": "Case Studies",
+        "labelAr": "دراسات الحالة",
+        "href": "/projects"
+      }
+    ],
+    "megaMenuImageUrl": "/profile/page-6-img-1.jpeg"
+  },
+  "pageHeroImages": {
+    "default": "/profile/page-2-img-1.jpeg",
+    "about": "/profile/page-2-img-1.jpeg",
+    "careers": "/profile/page-24-img-1.jpeg",
+    "contact": "/profile/page-26-img-1.jpeg",
+    "blog": "/profile/page-3-img-1.jpeg",
+    "services": "/profile/page-6-img-1.jpeg",
+    "projects": "/profile/page-24-img-1.jpeg",
+    "divisions": "/profile/page-3-img-1.jpeg",
+    "privacy": "/profile/page-2-img-1.jpeg",
+    "terms": "/profile/page-2-img-1.jpeg"
+  },
+  "footer": {
+    "description": "Specialized integrated Project Management consultancy and Engineering services across desalination, oil & gas, water infrastructure, and industrial sectors in Saudi Arabia.",
+    "descriptionAr": "شركة متخصصة في استشارات إدارة المشاريع والهندسة — من التحلية والنفط والغاز والبنية التحتية المائية إلى التشغيل والصيانة للمنشآت الصناعية في المملكة.",
+    "divisionTagline": "A division of Reliable Company",
+    "divisionTaglineAr": "قسم من شركة ريلايبل",
+    "certificationImageUrl": "/certifications-footer.png",
+    "contactHeading": "Contact",
+    "contactHeadingAr": "اتصل بنا",
+    "serviceLinks": [
+      {
+        "label": "FEED Services",
+        "labelAr": "خدمات FEED",
+        "href": "/services/front-end-engineering-feed"
+      },
+      {
+        "label": "Project Management",
+        "labelAr": "إدارة المشاريع",
+        "href": "/services/project-management-consultancy"
+      },
+      {
+        "label": "Design Management",
+        "labelAr": "إدارة التصميم",
+        "href": "/services/detailed-engineering-design-management"
+      },
+      {
+        "label": "Operations & Maintenance",
+        "labelAr": "العمليات والصيانة",
+        "href": "/services/operations-maintenance"
+      }
+    ],
+    "companyLinks": [
+      {
+        "label": "About Us",
+        "labelAr": "من نحن",
+        "href": "/about"
+      },
+      {
+        "label": "Our Projects",
+        "labelAr": "مشاريعنا",
+        "href": "/projects"
+      },
+      {
+        "label": "Divisions",
+        "labelAr": "الأقسام",
+        "href": "/divisions"
+      },
+      {
+        "label": "Careers",
+        "labelAr": "الوظائف",
+        "href": "/careers"
+      },
+      {
+        "label": "Contact",
+        "labelAr": "اتصل بنا",
+        "href": "/contact"
+      }
+    ],
+    "officeCities": [
+      "Jeddah"
+    ],
+    "privacyLabel": "Privacy Policy",
+    "privacyLabelAr": "سياسة الخصوصية",
+    "termsLabel": "Terms",
+    "termsLabelAr": "الشروط"
+  },
+  "globalContent": {
+    "siteName": "Reliable Company",
+    "siteNameAr": "شركة ريلايبل",
+    "tagline": "Collaborate, Communicate, Complete. Project Management & Engineering consultancy for industrial and infrastructure projects across Saudi Arabia.",
+    "taglineAr": "تعاون، تواصل، إنجاز. — استشارات إدارة المشاريع والهندسة للمشاريع الصناعية والبنية التحتية في المملكة.",
+    "phone": "+966 56 391 3902",
+    "email": "info@reliablecompany.sa",
+    "address": "8648, Prince Muteb Street, Al Aziziyah District, Jeddah, Saudi Arabia. P.O. Box: 23342",
+    "addressAr": "8648، شارع الأمير متعب، حي العزيزية، جدة، المملكة العربية السعودية. ص.ب: 23342",
+    "linkedIn": "https://www.linkedin.com/company/reliablecompany",
+    "twitter": "",
+    "copyrightText": "© 2026 Reliable Company. All rights reserved.",
+    "copyrightTextAr": "© 2026 شركة ريلايبل. جميع الحقوق محفوظة.",
+    "logoUrl": "/logo.png"
+  },
+  "homepageSections": [
+    {
+      "id": "hero-1781869897343-4rzs",
+      "type": "hero",
+      "visible": true
+    },
+    {
+      "id": "services-1781869897343-bdk5",
+      "type": "services",
+      "visible": true
+    },
+    {
+      "id": "whyUs-1781869897343-60rr",
+      "type": "whyUs",
+      "visible": true
+    },
+    {
+      "id": "industries-1781869897343-9olv",
+      "type": "industries",
+      "visible": true
+    },
+    {
+      "id": "divisions-1781869897343-ph3x",
+      "type": "divisions",
+      "visible": true
+    },
+    {
+      "id": "projects-1781869897343-pmaq",
+      "type": "projects",
+      "visible": true
+    },
+    {
+      "id": "cta-1781869897343-d7l8",
+      "type": "cta",
+      "visible": true
+    }
+  ],
+  "sectionContent": {
+    "blog": {
+      "label": "Blog",
+      "title": "Latest Insights",
+      "description": "Engineering news, project updates, and industry perspectives from our team.",
+      "labelAr": "المدونة",
+      "titleAr": "أحدث المقالات",
+      "descriptionAr": "أخبار هندسية وتحديثات المشاريع ورؤى من فريقنا."
+    },
+    "services": {
+      "label": "Our Expertise",
+      "title": "Integrated Project & Engineering Services",
+      "description": "Project management consultancy and engineering for industrial plants across Saudi Arabia.",
+      "labelAr": "خبراتنا",
+      "titleAr": "خدمات المشاريع والهندسة المتكاملة",
+      "descriptionAr": "استشارات إدارة المشاريع والهندسة والتشغيل التجريبي والعمليات والصيانة والتحسين للمنشآت الصناعية في المملكة."
+    },
+    "whyUs": {
+      "label": "Why Reliable",
+      "title": "Why Choose Reliable Company",
+      "description": "100+ years of combined experience, 500+ projects delivered, and a passion for quality, innovation, and on-time delivery.",
+      "labelAr": "لماذا ريلايبل",
+      "titleAr": "لماذا تختار شركة ريلايبل",
+      "descriptionAr": "أكثر من 100 سنة خبرة مجتمعة، وأكثر من 500 مشروع منجز، وشغف بالجودة والابتكار والتسليم في الوقت المحدد."
+    },
+    "industries": {
+      "label": "Industries",
+      "title": "Industries We've Worked With",
+      "description": "Project management and engineering consultancy across desalination, oil & gas, construction, manufacturing, and environmental sectors.",
+      "labelAr": "القطاعات",
+      "titleAr": "القطاعات التي عملنا معها",
+      "descriptionAr": "استشارات إدارة المشاريع والهندسة عبر التحلية والنفط والغاز والإنشاءات والتصنيع والاستدامة البيئية."
+    },
+    "divisions": {
+      "label": "Divisions",
+      "title": "Our Core Capabilities",
+      "description": "Project Management Consultancy and Engineering Services — working as one integrated team.",
+      "labelAr": "الأقسام",
+      "titleAr": "قدراتنا الأساسية",
+      "descriptionAr": "استشارات إدارة المشاريع والخدمات الهندسية — فريق واحد متكامل."
+    },
+    "projects": {
+      "label": "Projects",
+      "title": "Featured Projects",
+      "description": "A selection of projects delivered across desalination, oil & gas, water infrastructure, and industrial sectors.",
+      "labelAr": "المشاريع",
+      "titleAr": "مشاريع مميزة",
+      "descriptionAr": "مجموعة مختارة من المشاريع في التحلية والنفط والغاز والبنية التحتية المائية والقطاعات الصناعية."
+    }
+  },
+  "ctaBanner": {
+    "title": "Collaborate, Communicate, Complete.",
+    "titleAr": "تعاون، تواصل، إنجاز.",
+    "description": "Tell us about your project and our team will respond within one business day.",
+    "descriptionAr": "أخبرنا عن مشروعك وسيرد فريقنا خلال يوم عمل واحد.",
+    "emailPlaceholder": "Enter your email address",
+    "emailPlaceholderAr": "أدخل بريدك الإلكتروني",
+    "buttonText": "Request Consultation",
+    "buttonTextAr": "طلب استشارة",
+    "secondaryButtonText": "Contact Us",
+    "secondaryButtonTextAr": "اتصل بنا",
+    "secondaryButtonLink": "/contact"
+  },
+  "fieldStyles": {},
+  "hero": {
+    "_id": "hero",
+    "_type": "hero",
+    "eyebrow": "PROJECT MANAGEMENT & ENGINEERING",
+    "eyebrowAr": "إدارة المشاريع والهندسة",
+    "headline": "Collaborate, Communicate, Complete",
+    "headlineAr": "تعاون، تواصل، إنجاز.",
+    "highlightedWord": "Complete.",
+    "highlightedWordAr": "إنجاز.",
+    "subheadline": "Specialized integrated Project Management consultancy and Engineering services. From FEED and design management to construction, commissioning, operations, and plant optimization.",
+    "subheadlineAr": "شركة ريلايبل متخصصة في استشارات إدارة المشاريع والهندسة — من FEED وإدارة التصميم إلى الإنشاءات والتشغيل التجريبي والعمليات والصيانة وتحسين المنشآت.",
+    "primaryButtonText": "Explore Our Services",
+    "primaryButtonTextAr": "استكشف خدماتنا",
+    "primaryButtonLink": "/services",
+    "secondaryButtonText": "Contact Us",
+    "secondaryButtonTextAr": "اتصل بنا",
+    "secondaryButtonLink": "/contact",
+    "stats": [
+      {
+        "_key": "s1",
+        "number": "100+",
+        "label": "Years Combined Experience",
+        "labelAr": "سنوات خبرة مجتمعة"
+      },
+      {
+        "_key": "s2",
+        "number": "500+",
+        "label": "Projects Delivered",
+        "labelAr": "مشروع منجز"
+      },
+      {
+        "_key": "s3",
+        "number": "2016",
+        "label": "Founded in UAE",
+        "labelAr": "تأسست في الإمارات"
+      },
+      {
+        "_key": "s4",
+        "number": "2023",
+        "label": "Expanded to KSA",
+        "labelAr": "توسعنا في السعودية"
+      }
+    ],
+    "backgroundImage": {
+      "src": "/profile/page-2-img-1.jpeg",
+      "alt": "Reliable Company — Project Management & Engineering"
+    }
+  },
+  "whyStats": [
+    {
+      "_id": "why-1",
+      "_type": "whyStat",
+      "value": "100+",
+      "label": "Years Combined Experience",
+      "labelAr": "سنوات خبرة مجتمعة",
+      "order": 1
+    },
+    {
+      "_id": "why-2",
+      "_type": "whyStat",
+      "value": "500+",
+      "label": "Projects Delivered",
+      "labelAr": "مشروع منجز",
+      "order": 2
+    },
+    {
+      "_id": "why-3",
+      "_type": "whyStat",
+      "value": "95%+",
+      "label": "Plant Availability",
+      "labelAr": "توفر المنشآت",
+      "order": 3
+    },
+    {
+      "_id": "why-4",
+      "_type": "whyStat",
+      "value": "9",
+      "label": "Core Service Areas",
+      "labelAr": "مجالات خدمة أساسية",
+      "order": 4
+    }
+  ],
+  "divisions": [
+    {
+      "_id": "div-pmc",
+      "_type": "division",
+      "name": "Project Management Consultancy",
+      "slug": {
+        "_type": "slug",
+        "current": "project-management"
+      },
+      "type": "civil",
+      "tagLabel": "PMC & Program Management",
+      "description": "End-to-end project and program management from planning and scheduling through risk management, stakeholder coordination, and successful handover.",
+      "bulletPoints": [
+        "Project planning, monitoring and reporting",
+        "Program governance and project controls",
+        "Construction management and contractor oversight",
+        "Commercial and cost management"
+      ],
+      "order": 1
+    },
+    {
+      "_id": "div-engineering",
+      "_type": "division",
+      "name": "Engineering Services",
+      "slug": {
+        "_type": "slug",
+        "current": "engineering-services"
+      },
+      "type": "mechanical",
+      "tagLabel": "FEED • Design • Commissioning",
+      "description": "Front-end engineering, detailed design management, procurement, commissioning, operations and optimization for industrial plants and utilities.",
+      "bulletPoints": [
+        "Front-End Engineering Design (FEED)",
+        "Detailed engineering and design management",
+        "Procurement and commissioning management",
+        "Operations, maintenance and plant optimization"
+      ],
+      "order": 2
+    }
+  ],
+  "services": [
+    {
+      "_id": "svc-feed",
+      "_type": "service",
+      "title": "Front-End Engineering Design (FEED)",
+      "slug": {
+        "_type": "slug",
+        "current": "front-end-engineering-feed"
+      },
+      "icon": "Compass",
+      "shortDescription": "Define project scope and preliminary engineering to establish the foundation for successful industrial plant execution.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "FEED (Front End Engineering Design) is a crucial phase in the lifecycle of industrial plants. It is where the project scope is defined and preliminary engineering is conducted to gather all necessary information for project execution.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "Our FEED studies cover feasibility, process design, mechanical, electrical, civil and structural design, instrumentation and control, safety and environmental considerations, risk assessment, cost estimation, and documentation — ensuring projects meet technical, economic, and regulatory standards.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "order": 1,
+      "status": "active",
+      "category": "Engineering Services",
+      "overviewDescription": "By defining scope, technical basis, and preliminary design early, FEED provides the foundation for accurate budgeting, procurement, and execution of industrial plant projects.",
+      "overviewBulletPoints": [
+        "Feasibility and concept development",
+        "Process and multidisciplinary design basis",
+        "Cost estimation and risk assessment",
+        "Regulatory and safety compliance planning"
+      ],
+      "subServices": [
+        "Feasibility & Concept Studies",
+        "Process Engineering Design",
+        "Mechanical & Piping Design",
+        "Electrical & Instrumentation Design",
+        "Civil & Structural Coordination",
+        "HSE & Environmental Studies"
+      ],
+      "contentTitle": "Front-End Engineering Design (FEED)",
+      "benefitsTitle": "Why Choose FEED Services",
+      "benefits": [
+        {
+          "title": "Reduce Project Risk",
+          "description": "Identify technical, commercial, and schedule risks before major capital commitments."
+        },
+        {
+          "title": "Accurate Cost & Schedule Basis",
+          "description": "Establish reliable estimates and execution strategies for stakeholders and financiers."
+        },
+        {
+          "title": "Regulatory Alignment",
+          "description": "Align designs with Saudi Building Code, environmental requirements, and client standards."
+        },
+        {
+          "title": "Execution Readiness",
+          "description": "Deliver documentation packages that enable smooth transition to detailed design and construction."
+        }
+      ],
+      "processTitle": "Our FEED Process",
+      "processSteps": [
+        "Define project objectives, scope boundaries, and design criteria.",
+        "Develop process flow diagrams, equipment lists, and layout concepts.",
+        "Perform multidisciplinary engineering and preliminary design.",
+        "Conduct HSE, environmental, and risk assessments.",
+        "Prepare cost estimates, schedules, and procurement strategies.",
+        "Deliver FEED report and basis for detailed engineering."
+      ],
+      "faqsTitle": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What is FEED in industrial projects?",
+          "answer": "FEED (Front-End Engineering Design) is the phase where project scope, technical basis, and preliminary engineering are defined to support investment decisions and detailed design."
+        },
+        {
+          "question": "When should FEED be performed?",
+          "answer": "FEED should be completed after concept selection and before detailed engineering, procurement, and construction to minimize costly changes later."
+        },
+        {
+          "question": "What deliverables does FEED include?",
+          "answer": "Typical deliverables include process design basis, P&IDs, layouts, equipment specifications, cost estimates, schedules, and HSE documentation."
+        },
+        {
+          "question": "Why choose Reliable Company for FEED?",
+          "answer": "We combine PMC and engineering expertise across desalination, oil & gas, water, and industrial sectors with proven on-time delivery."
+        }
+      ],
+      "keyBenefitsTitle": "Why Choose FEED with Reliable",
+      "keyBenefits": [
+        {
+          "title": "Multidisciplinary Teams",
+          "description": "Integrated process, mechanical, electrical, and civil coordination."
+        },
+        {
+          "title": "Industrial Experience",
+          "description": "Desalination, oil & gas, and utilities sector expertise."
+        },
+        {
+          "title": "Cost Certainty",
+          "description": "Reliable estimates that support investment decisions."
+        },
+        {
+          "title": "Saudi Standards",
+          "description": "Compliance with local codes and regulatory requirements."
+        }
+      ],
+      "ctaTitle": "Start Your FEED Study Today",
+      "ctaDescription": "Speak with our engineering team about defining scope and preliminary design for your next industrial project.",
+      "ctaButtonText": "Request Consultation",
+      "ctaButtonLink": "/contact"
+    },
+    {
+      "_id": "svc-pmc",
+      "_type": "service",
+      "title": "Project Management Consultancy",
+      "slug": {
+        "_type": "slug",
+        "current": "project-management-consultancy"
+      },
+      "icon": "ClipboardCheck",
+      "shortDescription": "Streamline your project from start to finish with proven planning, scheduling, budgeting, and risk management methodologies.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Our Project Management Services are designed to streamline your project from start to finish. Our team provides end-to-end solutions including planning, scheduling, budgeting, and risk management.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "Services include project planning and reporting, risk assessment and mitigation, scope and change management, stakeholder management, document management, cost estimation and budgeting, safety and quality management, quantity surveying, and contracts procurement management.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "order": 2,
+      "status": "active",
+      "category": "Project Management",
+      "overviewDescription": "Our PMC services provide end-to-end project governance — from planning and risk management through stakeholder coordination, document control, and commercial management.",
+      "overviewBulletPoints": [
+        "Project planning and reporting",
+        "Risk assessment and mitigation",
+        "Scope and change management",
+        "Stakeholder and document management"
+      ],
+      "subServices": [
+        "Project Planning & Scheduling",
+        "Risk & Change Management",
+        "Cost Estimation & Budgeting",
+        "Contracts & Procurement Management",
+        "Safety & Quality Management",
+        "Quantity Surveying"
+      ],
+      "contentTitle": "Project Management Consultancy",
+      "benefitsTitle": "Why Choose Project Management Consultancy",
+      "benefits": [
+        {
+          "title": "On-Time Delivery",
+          "description": "Structured controls that keep complex programs on schedule and within budget."
+        },
+        {
+          "title": "Risk Visibility",
+          "description": "Proactive identification and mitigation of technical, commercial, and schedule risks."
+        },
+        {
+          "title": "Stakeholder Alignment",
+          "description": "Clear communication and governance across owners, contractors, and regulators."
+        },
+        {
+          "title": "Commercial Control",
+          "description": "Transparent cost tracking, change management, and contract administration."
+        }
+      ],
+      "processTitle": "Our PMC Process",
+      "processSteps": [
+        "Establish project objectives, governance, and reporting framework.",
+        "Develop integrated schedules, budgets, and risk registers.",
+        "Monitor progress, quality, safety, and contractor performance.",
+        "Manage changes, claims, and stakeholder communications.",
+        "Coordinate procurement, submittals, and document control.",
+        "Support commissioning, handover, and project closeout."
+      ],
+      "faqsTitle": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What does PMC include?",
+          "answer": "Project Management Consultancy covers planning, scheduling, budgeting, risk management, stakeholder coordination, document control, and commercial management throughout the project lifecycle."
+        },
+        {
+          "question": "Do you act as Owner's Engineer?",
+          "answer": "Yes. We represent client interests, monitor contractor performance, and ensure deliverables meet technical and contractual requirements."
+        },
+        {
+          "question": "Which sectors do you support?",
+          "answer": "We deliver PMC across desalination, oil & gas, water infrastructure, construction, and industrial utilities in Saudi Arabia."
+        },
+        {
+          "question": "Why choose Reliable for PMC?",
+          "answer": "100+ years combined team experience, 500+ projects delivered, and integrated engineering capabilities under one organization."
+        }
+      ],
+      "keyBenefitsTitle": "Why Choose Reliable PMC",
+      "keyBenefits": [
+        {
+          "title": "Proven Track Record",
+          "description": "500+ projects across the Kingdom and GCC."
+        },
+        {
+          "title": "Integrated Delivery",
+          "description": "PMC aligned with engineering and commissioning teams."
+        },
+        {
+          "title": "Transparent Reporting",
+          "description": "Clear dashboards for schedule, cost, and risk."
+        },
+        {
+          "title": "Local Presence",
+          "description": "Jeddah-based team with Saudi market expertise."
+        }
+      ],
+      "ctaTitle": "Streamline Your Next Project",
+      "ctaDescription": "Partner with our PMC team for planning, control, and successful project delivery.",
+      "ctaButtonText": "Get Consultation",
+      "ctaButtonLink": "/contact"
+    },
+    {
+      "_id": "svc-design",
+      "_type": "service",
+      "title": "Detailed Engineering & Design Management",
+      "slug": {
+        "_type": "slug",
+        "current": "detailed-engineering-design-management"
+      },
+      "icon": "PenTool",
+      "shortDescription": "Integrate major and specialist design skills into one managed service with singular design team management.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Starting from the design phase, we bring together the major and specialist skills involved in project design into one managed service. The goals are ultimately managed interfaces and singular design team management.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "Our design management services include requirements gathering, scope definition, consultant monitoring, design contract procurement, deliverable approval, time and cost control, permitting support, design progress meetings, regulatory compliance, constructability review, design workshops, and tender package management.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "order": 3,
+      "status": "active",
+      "category": "Engineering Services",
+      "overviewDescription": "We integrate major and specialist design disciplines into one managed service with singular team leadership and controlled interfaces.",
+      "overviewBulletPoints": [
+        "Requirements gathering and scope definition",
+        "Consultant monitoring and deliverable approval",
+        "Design contract procurement",
+        "Constructability and regulatory review"
+      ],
+      "subServices": [
+        "Design Team Management",
+        "Deliverable Review & Approval",
+        "Permitting & Regulatory Support",
+        "Constructability Reviews",
+        "Design Workshops & Coordination",
+        "Tender Package Management"
+      ],
+      "contentTitle": "Detailed Engineering & Design Management",
+      "benefitsTitle": "Why Choose Design Management",
+      "benefits": [
+        {
+          "title": "Single Point of Accountability",
+          "description": "One managed design team with clear interfaces and responsibilities."
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "Systematic review of consultant deliverables against scope and standards."
+        },
+        {
+          "title": "Schedule Control",
+          "description": "Design progress meetings and milestone tracking to prevent delays."
+        },
+        {
+          "title": "Cost Efficiency",
+          "description": "Optimized consultant procurement and change control."
+        }
+      ],
+      "processTitle": "Our Design Management Process",
+      "processSteps": [
+        "Define design requirements, scope, and standards.",
+        "Procure and onboard design consultants and specialists.",
+        "Monitor design progress, interfaces, and deliverables.",
+        "Conduct constructability and regulatory compliance reviews.",
+        "Approve drawings and specifications for construction.",
+        "Manage tender packages and support contractor selection."
+      ],
+      "faqsTitle": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What is design management?",
+          "answer": "Design management coordinates multidisciplinary engineering teams, reviews deliverables, and ensures designs meet project requirements before construction."
+        },
+        {
+          "question": "Do you manage third-party consultants?",
+          "answer": "Yes. We procure, monitor, and integrate specialist consultants under a unified management framework."
+        },
+        {
+          "question": "Which disciplines are covered?",
+          "answer": "Process, mechanical, piping, electrical, instrumentation, civil, structural, and HSE coordination."
+        },
+        {
+          "question": "Why choose Reliable?",
+          "answer": "We combine PMC governance with hands-on engineering experience across industrial sectors."
+        }
+      ],
+      "keyBenefitsTitle": "Why Choose Reliable Design Management",
+      "keyBenefits": [
+        {
+          "title": "Interface Control",
+          "description": "Managed coordination between all design disciplines."
+        },
+        {
+          "title": "Regulatory Expertise",
+          "description": "Support for permits and Saudi compliance requirements."
+        },
+        {
+          "title": "Constructability",
+          "description": "Early reviews that reduce field changes and delays."
+        },
+        {
+          "title": "Tender Ready",
+          "description": "Complete packages for contractor procurement."
+        }
+      ],
+      "ctaTitle": "Manage Your Design with Confidence",
+      "ctaDescription": "Ensure multidisciplinary designs are coordinated, compliant, and ready for construction.",
+      "ctaButtonText": "Request Consultation",
+      "ctaButtonLink": "/contact"
+    },
+    {
+      "_id": "svc-procurement",
+      "_type": "service",
+      "title": "Procurement Management",
+      "slug": {
+        "_type": "slug",
+        "current": "procurement-management"
+      },
+      "icon": "ShoppingCart",
+      "shortDescription": "Comprehensive procurement solutions from sourcing and supplier selection through contract negotiation and delivery.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Streamline your procurement process and achieve greater efficiency with our comprehensive procurement management solutions. From sourcing to delivery, our expertise ensures optimal supplier performance and cost savings.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "Services include procurement planning, sourcing suppliers, supplier selection, negotiating contracts, evaluating proposals, managing supplier performance, procurement execution and control, and contract management.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "order": 4,
+      "status": "active",
+      "category": "Engineering Services",
+      "overviewDescription": "Streamline sourcing, supplier selection, and contract negotiation with structured procurement planning and performance management.",
+      "overviewBulletPoints": [
+        "Procurement planning and strategy",
+        "Supplier sourcing and evaluation",
+        "Contract negotiation and management",
+        "Delivery tracking and performance control"
+      ],
+      "subServices": [
+        "Procurement Planning",
+        "Supplier Sourcing & Selection",
+        "Proposal Evaluation",
+        "Contract Negotiation",
+        "Supplier Performance Management",
+        "Expediting & Logistics Coordination"
+      ],
+      "contentTitle": "Procurement Management",
+      "benefitsTitle": "Why Choose Procurement Management",
+      "benefits": [
+        {
+          "title": "Cost Savings",
+          "description": "Competitive sourcing and negotiated contracts that optimize project spend."
+        },
+        {
+          "title": "Supplier Quality",
+          "description": "Rigorous evaluation ensures capable and reliable vendors."
+        },
+        {
+          "title": "Schedule Assurance",
+          "description": "Expediting and tracking to align deliveries with construction needs."
+        },
+        {
+          "title": "Risk Reduction",
+          "description": "Clear contracts and performance monitoring minimize disputes."
+        }
+      ],
+      "processTitle": "Our Procurement Process",
+      "processSteps": [
+        "Develop procurement strategy and package breakdown.",
+        "Source and pre-qualify suppliers.",
+        "Issue RFQs/RFPs and evaluate technical-commercial proposals.",
+        "Negotiate and award contracts.",
+        "Monitor manufacturing, delivery, and supplier performance.",
+        "Manage variations, claims, and closeout documentation."
+      ],
+      "faqsTitle": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What types of packages do you procure?",
+          "answer": "Equipment, materials, EPC contracts, specialist services, and long-lead items for industrial and infrastructure projects."
+        },
+        {
+          "question": "Do you support international suppliers?",
+          "answer": "Yes. We manage global sourcing with logistics, customs, and compliance coordination."
+        },
+        {
+          "question": "How do you ensure supplier quality?",
+          "answer": "Through technical evaluation, reference checks, factory inspections, and performance KPIs."
+        },
+        {
+          "question": "Why Reliable for procurement?",
+          "answer": "Integrated PMC and engineering insight ensures procurement aligns with design and schedule requirements."
+        }
+      ],
+      "keyBenefitsTitle": "Why Choose Reliable Procurement",
+      "keyBenefits": [
+        {
+          "title": "End-to-End Coverage",
+          "description": "From strategy through contract closeout."
+        },
+        {
+          "title": "Technical Evaluation",
+          "description": "Engineering-led assessment of supplier proposals."
+        },
+        {
+          "title": "Commercial Strength",
+          "description": "Experienced negotiation and contract administration."
+        },
+        {
+          "title": "Schedule Integration",
+          "description": "Procurement aligned with project milestones."
+        }
+      ],
+      "ctaTitle": "Optimize Your Procurement Strategy",
+      "ctaDescription": "Reduce cost and delivery risk with structured procurement management.",
+      "ctaButtonText": "Get Consultation",
+      "ctaButtonLink": "/contact"
+    },
+    {
+      "_id": "svc-program",
+      "_type": "service",
+      "title": "Program Management",
+      "slug": {
+        "_type": "slug",
+        "current": "program-management"
+      },
+      "icon": "Layers",
+      "shortDescription": "Govern multiple linked projects with consistent standards, oversight, and optimized inter-dependencies.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Program Management oversees a group of individual projects linked through a shared organizational goal. The benefit is consistent governance and application of standards across multiple projects.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "RELIABLE COMPANY helps achieve the best outcomes by managing projects' inter-dependencies, diverse stakeholders, and competing needs. Our services include pre and post strategic advice, procurement advice, program governance, project controls, client representation, and commercial and cost management.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "order": 5,
+      "status": "active",
+      "category": "Project Management",
+      "overviewDescription": "Govern multiple linked projects with consistent standards, optimized inter-dependencies, and unified stakeholder oversight.",
+      "overviewBulletPoints": [
+        "Program governance and standards",
+        "Inter-project dependency management",
+        "Portfolio-level risk and reporting",
+        "Strategic procurement advice"
+      ],
+      "subServices": [
+        "Program Governance",
+        "Project Controls & Reporting",
+        "Client Representation",
+        "Commercial & Cost Management",
+        "Strategic Procurement Advice",
+        "Benefits Realization Tracking"
+      ],
+      "contentTitle": "Program Management",
+      "benefitsTitle": "Why Choose Program Management",
+      "benefits": [
+        {
+          "title": "Consistent Governance",
+          "description": "Unified standards and processes across all projects in the program."
+        },
+        {
+          "title": "Optimized Dependencies",
+          "description": "Manage shared resources, interfaces, and critical paths between projects."
+        },
+        {
+          "title": "Executive Visibility",
+          "description": "Portfolio dashboards for decision-makers and investors."
+        },
+        {
+          "title": "Strategic Alignment",
+          "description": "Ensure individual projects deliver broader organizational goals."
+        }
+      ],
+      "processTitle": "Our Program Management Process",
+      "processSteps": [
+        "Define program objectives, structure, and governance.",
+        "Establish common controls, reporting, and risk frameworks.",
+        "Coordinate schedules, budgets, and dependencies across projects.",
+        "Provide strategic advice on procurement and resourcing.",
+        "Monitor benefits realization and program performance.",
+        "Support transition to operations and program closeout."
+      ],
+      "faqsTitle": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What is the difference between project and program management?",
+          "answer": "Project management focuses on a single deliverable; program management coordinates multiple related projects toward a shared strategic outcome."
+        },
+        {
+          "question": "When is program management needed?",
+          "answer": "When multiple projects share resources, dependencies, or funding and require unified governance."
+        },
+        {
+          "question": "What industries do you serve?",
+          "answer": "Water infrastructure, desalination, oil & gas, and large industrial development programs."
+        },
+        {
+          "question": "Why Reliable?",
+          "answer": "We bring PMC depth plus engineering integration for complex multi-project portfolios."
+        }
+      ],
+      "keyBenefitsTitle": "Why Choose Reliable Program Management",
+      "keyBenefits": [
+        {
+          "title": "Portfolio View",
+          "description": "Holistic oversight across all linked projects."
+        },
+        {
+          "title": "Risk Aggregation",
+          "description": "Identify and mitigate program-level risks early."
+        },
+        {
+          "title": "Stakeholder Management",
+          "description": "Coordinate diverse investors, regulators, and contractors."
+        },
+        {
+          "title": "Value Delivery",
+          "description": "Track benefits realization against strategic goals."
+        }
+      ],
+      "ctaTitle": "Govern Your Program with Confidence",
+      "ctaDescription": "Deliver complex multi-project portfolios with unified controls and strategic oversight.",
+      "ctaButtonText": "Request Consultation",
+      "ctaButtonLink": "/contact"
+    },
+    {
+      "_id": "svc-construction",
+      "_type": "service",
+      "title": "Construction Management",
+      "slug": {
+        "_type": "slug",
+        "current": "construction-management"
+      },
+      "icon": "HardHat",
+      "shortDescription": "End-to-end construction management from planning and scheduling to quality control and project handover.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Streamline your construction projects and optimize resources with our comprehensive construction management services. Our experienced team offers end-to-end solutions from planning and scheduling to budgeting and quality control.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "We monitor contractors and project progress, manage time, cost and contracts, track procurement and submittals, manage documents, conduct progress meetings, assure safety and quality, and manage testing, commissioning, claims, and project closeout.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "order": 6,
+      "status": "active",
+      "category": "Project Management",
+      "overviewDescription": "End-to-end construction management from site mobilization through quality control, safety assurance, and project handover.",
+      "overviewBulletPoints": [
+        "Contractor monitoring and progress tracking",
+        "Time, cost, and contract management",
+        "Safety and quality assurance",
+        "Testing, commissioning, and closeout support"
+      ],
+      "subServices": [
+        "Site Supervision & Progress Monitoring",
+        "Contract & Claims Management",
+        "Procurement & Submittal Tracking",
+        "Safety & Quality Management",
+        "Progress Meetings & Reporting",
+        "Testing & Commissioning Support"
+      ],
+      "contentTitle": "Construction Management",
+      "benefitsTitle": "Why Choose Construction Management",
+      "benefits": [
+        {
+          "title": "Site Control",
+          "description": "Daily oversight of contractor performance and site activities."
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "Inspection and testing protocols that protect project integrity."
+        },
+        {
+          "title": "Safety Leadership",
+          "description": "Proactive HSE management aligned with Saudi regulations."
+        },
+        {
+          "title": "Commercial Protection",
+          "description": "Claims management and contract administration to protect client interests."
+        }
+      ],
+      "processTitle": "Our Construction Management Process",
+      "processSteps": [
+        "Review construction plans, contracts, and mobilization readiness.",
+        "Monitor daily progress, quality, and safety on site.",
+        "Track procurement, submittals, and contractor deliverables.",
+        "Conduct progress meetings and issue structured reports.",
+        "Manage variations, claims, and schedule recovery.",
+        "Support testing, commissioning, and final handover."
+      ],
+      "faqsTitle": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What is construction management?",
+          "answer": "Construction management provides owner-side oversight of contractors, ensuring work meets design, schedule, budget, safety, and quality requirements."
+        },
+        {
+          "question": "Do you manage EPC contractors?",
+          "answer": "Yes. We monitor EPC and specialist contractors across industrial and infrastructure projects."
+        },
+        {
+          "question": "How do you handle delays?",
+          "answer": "Through schedule analysis, recovery planning, and contractual claims management."
+        },
+        {
+          "question": "Why Reliable?",
+          "answer": "Integrated engineering knowledge ensures construction oversight is technically informed and commercially sound."
+        }
+      ],
+      "keyBenefitsTitle": "Why Choose Reliable Construction Management",
+      "keyBenefits": [
+        {
+          "title": "Owner Representation",
+          "description": "Independent oversight protecting your investment."
+        },
+        {
+          "title": "Technical Depth",
+          "description": "Engineering-backed review of site activities."
+        },
+        {
+          "title": "HSE Focus",
+          "description": "Safety-first culture on every project."
+        },
+        {
+          "title": "Closeout Excellence",
+          "description": "Structured handover with complete documentation."
+        }
+      ],
+      "ctaTitle": "Build with Confidence",
+      "ctaDescription": "Ensure your construction phase is delivered safely, on time, and to specification.",
+      "ctaButtonText": "Get Consultation",
+      "ctaButtonLink": "/contact"
+    },
+    {
+      "_id": "svc-commissioning",
+      "_type": "service",
+      "title": "Commissioning Management",
+      "slug": {
+        "_type": "slug",
+        "current": "commissioning-management"
+      },
+      "icon": "CheckCircle2",
+      "shortDescription": "Ensure all systems are installed, tested, and integrated before safe and efficient plant handover.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "The commissioning management phase ensures all systems and components are installed, tested, and integrated properly before the plant is handed over for operation.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "Our process covers pre-commissioning preparation, mechanical completion, system walkdowns, electrical and instrumentation verification, functional and integrated system testing, performance testing, operator training, documentation, handover to operations, and post-commissioning support.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "order": 7,
+      "status": "active",
+      "category": "Engineering Services",
+      "overviewDescription": "Ensure all systems are installed, tested, and integrated before safe and efficient handover to operations.",
+      "overviewBulletPoints": [
+        "Pre-commissioning and mechanical completion",
+        "System walkdowns and verification",
+        "Functional and integrated system testing",
+        "Operator training and documentation"
+      ],
+      "subServices": [
+        "Pre-Commissioning Preparation",
+        "Mechanical Completion & Walkdowns",
+        "Electrical & Instrumentation Verification",
+        "Functional & Integrated System Testing",
+        "Performance Testing",
+        "Operator Training & Handover"
+      ],
+      "contentTitle": "Commissioning Management",
+      "benefitsTitle": "Why Choose Commissioning Management",
+      "benefits": [
+        {
+          "title": "Operational Readiness",
+          "description": "Plants ready for safe, efficient startup and sustained operations."
+        },
+        {
+          "title": "Defect Reduction",
+          "description": "Systematic testing catches issues before handover."
+        },
+        {
+          "title": "Documentation Completeness",
+          "description": "As-built records, O&M manuals, and training materials delivered."
+        },
+        {
+          "title": "Schedule Protection",
+          "description": "Structured commissioning sequences prevent startup delays."
+        }
+      ],
+      "processTitle": "Our Commissioning Process",
+      "processSteps": [
+        "Develop commissioning strategy and test procedures.",
+        "Complete mechanical completion and punch list clearance.",
+        "Perform electrical, instrumentation, and loop checks.",
+        "Execute functional and integrated system tests.",
+        "Conduct performance testing and optimization.",
+        "Train operators and hand over to operations with documentation."
+      ],
+      "faqsTitle": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What is commissioning management?",
+          "answer": "Commissioning management oversees testing and verification of all plant systems before operational handover."
+        },
+        {
+          "question": "When does commissioning start?",
+          "answer": "Planning begins during design; field activities start at mechanical completion and continue through startup."
+        },
+        {
+          "question": "Do you support desalination plants?",
+          "answer": "Yes. We have extensive experience commissioning desalination and water treatment facilities."
+        },
+        {
+          "question": "Why Reliable?",
+          "answer": "Our engineering and O&M teams understand both design intent and operational requirements."
+        }
+      ],
+      "keyBenefitsTitle": "Why Choose Reliable Commissioning",
+      "keyBenefits": [
+        {
+          "title": "Systematic Testing",
+          "description": "Structured procedures for every system and interface."
+        },
+        {
+          "title": "Plant Experience",
+          "description": "Desalination, utilities, and industrial sector expertise."
+        },
+        {
+          "title": "Operator Focus",
+          "description": "Training and documentation for smooth transition."
+        },
+        {
+          "title": "Post-Handover Support",
+          "description": "Continued assistance during initial operations."
+        }
+      ],
+      "ctaTitle": "Commission with Confidence",
+      "ctaDescription": "Ensure your plant is tested, verified, and ready for safe operational handover.",
+      "ctaButtonText": "Request Consultation",
+      "ctaButtonLink": "/contact"
+    },
+    {
+      "_id": "svc-om",
+      "_type": "service",
+      "title": "Operations & Maintenance",
+      "slug": {
+        "_type": "slug",
+        "current": "operations-maintenance"
+      },
+      "icon": "Settings",
+      "shortDescription": "Reliable operations and maintenance for desalination plants, water treatment facilities, and industrial utilities.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Operation and Maintenance of Desalination Plants, Water Treatment Plants, Industrial Facilities and General Utilities.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "Through predictive analysis, proactive monitoring, and timely decision-making, we ensure safe, smooth, and uninterrupted plant performance with over 95% availability. Our structured maintenance approach minimizes downtime, extends equipment life, and reduces operating costs.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "order": 8,
+      "status": "active",
+      "category": "Engineering Services",
+      "overviewDescription": "Reliable operations and maintenance for desalination plants, water treatment facilities, and industrial utilities with 95%+ availability targets.",
+      "overviewBulletPoints": [
+        "Predictive analysis and proactive monitoring",
+        "Preventive and corrective maintenance",
+        "Energy and water quality optimization",
+        "Emergency response and expert intervention"
+      ],
+      "subServices": [
+        "Plant Operations Management",
+        "Preventive Maintenance Programs",
+        "Corrective Maintenance & Repairs",
+        "Performance Monitoring & Reporting",
+        "Spare Parts & Inventory Management",
+        "Energy & Efficiency Optimization"
+      ],
+      "contentTitle": "Operations & Maintenance",
+      "benefitsTitle": "Why Choose Operations & Maintenance",
+      "benefits": [
+        {
+          "title": "High Availability",
+          "description": "Structured programs targeting 95%+ plant availability."
+        },
+        {
+          "title": "Cost Optimization",
+          "description": "Predictive maintenance reduces downtime and extends equipment life."
+        },
+        {
+          "title": "Compliance Assurance",
+          "description": "Water quality, environmental, and safety standards maintained."
+        },
+        {
+          "title": "Expert Response",
+          "description": "Rapid intervention when issues arise to minimize production loss."
+        }
+      ],
+      "processTitle": "Our O&M Process",
+      "processSteps": [
+        "Assess plant condition and operational baseline.",
+        "Implement monitoring, reporting, and maintenance plans.",
+        "Execute daily operations with safety and quality controls.",
+        "Perform preventive and predictive maintenance activities.",
+        "Optimize energy, chemical usage, and production efficiency.",
+        "Report performance and recommend continuous improvements."
+      ],
+      "faqsTitle": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "Which facilities do you operate?",
+          "answer": "Desalination plants, water treatment facilities, industrial utilities, and general process plants."
+        },
+        {
+          "question": "What availability do you target?",
+          "answer": "We design O&M programs to achieve over 95% availability through proactive monitoring and maintenance."
+        },
+        {
+          "question": "Do you provide emergency support?",
+          "answer": "Yes. Our teams provide rapid expert intervention for unplanned outages and critical failures."
+        },
+        {
+          "question": "Why Reliable?",
+          "answer": "Hands-on experience operating desalination and industrial plants across Saudi Arabia."
+        }
+      ],
+      "keyBenefitsTitle": "Why Choose Reliable O&M",
+      "keyBenefits": [
+        {
+          "title": "Plant Reliability",
+          "description": "Proven programs for sustained high availability."
+        },
+        {
+          "title": "Cost Control",
+          "description": "Optimized maintenance spend and energy efficiency."
+        },
+        {
+          "title": "Safety Culture",
+          "description": "Operations aligned with HSE best practices."
+        },
+        {
+          "title": "Local Teams",
+          "description": "Saudi-based operators and maintenance specialists."
+        }
+      ],
+      "ctaTitle": "Maximize Your Plant Performance",
+      "ctaDescription": "Partner with us for reliable operations, maintenance, and continuous improvement.",
+      "ctaButtonText": "Get Consultation",
+      "ctaButtonLink": "/contact"
+    },
+    {
+      "_id": "svc-optimization",
+      "_type": "service",
+      "title": "Industrial Plant Optimization",
+      "slug": {
+        "_type": "slug",
+        "current": "industrial-plant-optimization"
+      },
+      "icon": "TrendingUp",
+      "shortDescription": "Continuous improvement of efficiency, productivity, reliability, and safety while reducing costs and environmental impact.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Optimization of industrial plants is a continuous process aimed at improving efficiency, productivity, reliability, and safety while reducing costs and environmental impact.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "Our approach includes performance assessment, data collection and analysis, identification of improvement opportunities, process modeling and simulation, engineering design and analysis, implementation planning, testing and validation, performance monitoring, training, and iterative improvement cycles.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "order": 9,
+      "status": "active",
+      "category": "Engineering Services",
+      "overviewDescription": "Continuous improvement of efficiency, productivity, reliability, and safety while reducing costs and environmental impact.",
+      "overviewBulletPoints": [
+        "Performance assessment and benchmarking",
+        "Data collection and process analysis",
+        "Process modeling and simulation",
+        "Implementation and validation support"
+      ],
+      "subServices": [
+        "Performance Assessment & Audits",
+        "Process Modeling & Simulation",
+        "Energy & Efficiency Studies",
+        "Reliability & Availability Analysis",
+        "Implementation Planning",
+        "Performance Monitoring & Iteration"
+      ],
+      "contentTitle": "Industrial Plant Optimization",
+      "benefitsTitle": "Why Choose Plant Optimization",
+      "benefits": [
+        {
+          "title": "Increased Efficiency",
+          "description": "Identify and implement improvements that reduce energy and operating costs."
+        },
+        {
+          "title": "Higher Reliability",
+          "description": "Address root causes of downtime and performance degradation."
+        },
+        {
+          "title": "Environmental Gains",
+          "description": "Reduce emissions, waste, and resource consumption."
+        },
+        {
+          "title": "Sustained Results",
+          "description": "Monitoring and iteration ensure long-term performance gains."
+        }
+      ],
+      "processTitle": "Our Optimization Process",
+      "processSteps": [
+        "Conduct performance assessment and data collection.",
+        "Analyze processes and identify improvement opportunities.",
+        "Develop engineering solutions and business cases.",
+        "Plan and implement optimization measures.",
+        "Test, validate, and measure results.",
+        "Monitor performance and iterate for continuous improvement."
+      ],
+      "faqsTitle": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What is plant optimization?",
+          "answer": "Plant optimization is a continuous process to improve efficiency, reliability, safety, and cost performance of industrial facilities."
+        },
+        {
+          "question": "What tools do you use?",
+          "answer": "Performance audits, data analytics, process simulation, and engineering design analysis."
+        },
+        {
+          "question": "Can optimization be done during operations?",
+          "answer": "Yes. Most assessments and improvements are implemented without disrupting production."
+        },
+        {
+          "question": "Why Reliable?",
+          "answer": "We combine O&M field experience with engineering analysis for practical, measurable improvements."
+        }
+      ],
+      "keyBenefitsTitle": "Why Choose Reliable Optimization",
+      "keyBenefits": [
+        {
+          "title": "Data-Driven",
+          "description": "Decisions backed by performance data and analysis."
+        },
+        {
+          "title": "Practical Solutions",
+          "description": "Improvements that work in real operating environments."
+        },
+        {
+          "title": "ROI Focus",
+          "description": "Business cases with clear return on investment."
+        },
+        {
+          "title": "Continuous Support",
+          "description": "Ongoing monitoring and iterative improvement."
+        }
+      ],
+      "ctaTitle": "Unlock Your Plant's Potential",
+      "ctaDescription": "Improve efficiency, reliability, and sustainability with structured optimization programs.",
+      "ctaButtonText": "Request Consultation",
+      "ctaButtonLink": "/contact"
+    }
+  ],
+  "projects": [
+    {
+      "_id": "proj-desal",
+      "_type": "project",
+      "title": "Desalination Plant Operations & Maintenance",
+      "slug": {
+        "_type": "slug",
+        "current": "desalination-operations"
+      },
+      "shortDescription": "Operations and maintenance program achieving 95%+ availability for a major desalination facility on the Red Sea coast.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Reliable Company provides comprehensive operations and maintenance for desalination facilities, combining predictive analysis, proactive monitoring, and rapid expert intervention to optimize energy efficiency and water quality compliance.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "division": {
+        "name": "Engineering Services",
+        "type": "mechanical"
+      },
+      "tags": [
+        "Desalination",
+        "Operations",
+        "Utilities"
+      ],
+      "thumbnail": {
+        "src": "/profile/page-18-img-1.jpeg",
+        "alt": "Desalination plant operations"
+      },
+      "completedYear": 2024,
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "_id": "proj-oilgas",
+      "_type": "project",
+      "title": "Oil & Gas FEED Study",
+      "slug": {
+        "_type": "slug",
+        "current": "oil-gas-feed-study"
+      },
+      "shortDescription": "Front-End Engineering Design for an industrial processing facility in the oil and gas sector.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Complete FEED study covering process design, mechanical and electrical systems, safety and environmental considerations, risk assessment, and cost estimation for a major oil and gas processing project.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "division": {
+        "name": "Engineering Services",
+        "type": "mechanical"
+      },
+      "tags": [
+        "Oil & Gas",
+        "FEED",
+        "Industrial"
+      ],
+      "thumbnail": {
+        "src": "/profile/page-4-img-1.jpeg",
+        "alt": "Oil and gas engineering"
+      },
+      "completedYear": 2023,
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "_id": "proj-pmc",
+      "_type": "project",
+      "title": "Water Infrastructure PMC",
+      "slug": {
+        "_type": "slug",
+        "current": "water-infrastructure-pmc"
+      },
+      "shortDescription": "Project management consultancy for a regional water infrastructure networking program.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "End-to-end project management consultancy including planning, risk management, stakeholder coordination, and document control for a complex water infrastructure program delivered on time and within budget.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "division": {
+        "name": "Project Management Consultancy",
+        "type": "civil"
+      },
+      "tags": [
+        "Water",
+        "Infrastructure",
+        "PMC"
+      ],
+      "thumbnail": {
+        "src": "/profile/page-6-img-1.jpeg",
+        "alt": "Project management consultancy"
+      },
+      "completedYear": 2024,
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "_id": "proj-construction",
+      "_type": "project",
+      "title": "Industrial Construction Management",
+      "slug": {
+        "_type": "slug",
+        "current": "industrial-construction-management"
+      },
+      "shortDescription": "Construction management for a large-scale industrial manufacturing facility in the Eastern Province.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Full construction management services including contractor monitoring, progress tracking, quality and safety assurance, and commissioning support for an industrial complex.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "division": {
+        "name": "Project Management Consultancy",
+        "type": "civil"
+      },
+      "tags": [
+        "Construction",
+        "Industrial",
+        "Manufacturing"
+      ],
+      "thumbnail": {
+        "src": "/profile/page-14-img-1.jpeg",
+        "alt": "Construction management"
+      },
+      "completedYear": 2023,
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "_id": "proj-commissioning",
+      "_type": "project",
+      "title": "Plant Commissioning Management",
+      "slug": {
+        "_type": "slug",
+        "current": "plant-commissioning"
+      },
+      "shortDescription": "Commissioning management for a water treatment plant from mechanical completion through handover.",
+      "fullDescription": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Structured commissioning program covering system walkdowns, functional testing, integrated system testing, operator training, and handover to operations.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "division": {
+        "name": "Engineering Services",
+        "type": "mechanical"
+      },
+      "tags": [
+        "Commissioning",
+        "Water Treatment",
+        "Industrial"
+      ],
+      "thumbnail": {
+        "src": "/profile/page-16-img-1.jpeg",
+        "alt": "Commissioning management"
+      },
+      "completedYear": 2022,
+      "featured": false,
+      "status": "active"
+    }
+  ],
+  "team": [
+    {
+      "_id": "team-1",
+      "_type": "teamMember",
+      "name": "Certified Project Managers",
+      "role": "Project Management",
+      "division": "PMC",
+      "order": 1
+    },
+    {
+      "_id": "team-2",
+      "_type": "teamMember",
+      "name": "Technical Engineering Experts",
+      "role": "Engineering",
+      "division": "Engineering Services",
+      "order": 2
+    },
+    {
+      "_id": "team-3",
+      "_type": "teamMember",
+      "name": "Skilled Design Specialists",
+      "role": "Design Management",
+      "division": "Engineering Services",
+      "order": 3
+    }
+  ],
+  "industries": [
+    {
+      "_id": "ind-1",
+      "title": "Desalination",
+      "icon": "Droplets",
+      "order": 1,
+      "status": "active"
+    },
+    {
+      "_id": "ind-2",
+      "title": "Oil & Gas",
+      "icon": "Flame",
+      "order": 2,
+      "status": "active"
+    },
+    {
+      "_id": "ind-3",
+      "title": "Construction",
+      "icon": "Building2",
+      "order": 3,
+      "status": "active"
+    },
+    {
+      "_id": "ind-4",
+      "title": "Engineering",
+      "icon": "Compass",
+      "order": 4,
+      "status": "active"
+    },
+    {
+      "_id": "ind-5",
+      "title": "Manufacturing",
+      "icon": "Factory",
+      "order": 5,
+      "status": "active"
+    },
+    {
+      "_id": "ind-6",
+      "title": "Environmental & Sustainability",
+      "icon": "Leaf",
+      "order": 6,
+      "status": "active"
+    }
+  ],
+  "certifications": [
+    {
+      "_id": "cert-1",
+      "name": "Certified Project Managers",
+      "order": 1
+    },
+    {
+      "_id": "cert-2",
+      "name": "Owner's Engineer / Consultant",
+      "order": 2
+    },
+    {
+      "_id": "cert-3",
+      "name": "Industrial Plant Specialists",
+      "order": 3
+    }
+  ],
+  "values": [
+    {
+      "_id": "val-1",
+      "title": "Quality & Service",
+      "description": "Passion for quality and service in every deliverable — from concept through final handover.",
+      "icon": "Award",
+      "order": 1
+    },
+    {
+      "_id": "val-2",
+      "title": "Innovative Thinking",
+      "description": "Innovative thinking and modern methodologies to solve complex industrial and infrastructure challenges.",
+      "icon": "Lightbulb",
+      "order": 2
+    },
+    {
+      "_id": "val-3",
+      "title": "Hands-on Experience",
+      "description": "Hands-on experience across desalination, oil & gas, water infrastructure, FEED, and construction.",
+      "icon": "Wrench",
+      "order": 3
+    },
+    {
+      "_id": "val-4",
+      "title": "On-time Delivery",
+      "description": "We deliver projects on-time within budget with full compliance. Time is money.",
+      "icon": "Clock",
+      "order": 4
+    }
+  ],
+  "pages": {
+    "about": {
+      "_id": "page-about",
+      "_type": "page",
+      "title": "Who We Are",
+      "titleAr": "من نحن",
+      "slug": {
+        "_type": "slug",
+        "current": "about"
+      },
+      "content": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Reliable Company is a specialized, integrated Project Management consultancy and Engineering services group. As a group of companies, we started our operations in 2016 from UAE and in 2023 we expanded our business in the Kingdom of Saudi Arabia.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "Our management team has 100+ years of combined experience in managing 500+ projects in Desalination, Oil & Gas, Water Infrastructure networking, FEED, Construction and many more from concept till final handover. Passion for Quality & service, Innovative thinking and hands-on experience are the qualities of our team which makes them unique to deliver many challenging projects on-time within budget with compliance.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b2",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b2-span",
+              "text": "Our certified Project Managers and Engineers, Technical experts & skilled designers are committed to act as an owner's engineers/consultants, to optimize resources & equipments to deliver project On-time. Time is Money and we don't allow contractors to lose Seconds.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "contentAr": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "شركة ريلايبل متخصصة في استشارات إدارة المشاريع المتكاملة والهندسة. كمجموعة شركات، بدأنا عملياتنا في 2016 من الإمارات وفي 2023 وسّعنا أعمالنا في المملكة العربية السعودية.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "يتمتع فريق الإدارة لدينا بأكثر من 100 سنة خبرة مجتمعة في إدارة أكثر من 500 مشروع في التحلية والنفط والغاز والبنية التحتية المائية وFEED والإنشاءات وغيرها من الفكرة حتى التسليم النهائي. الشغف بالجودة والخدمة، والتفكير الابتكاري، والخبرة العملية هي صفات فريقنا التي تميزه في تسليم المشاريع الصعبة في الوقت المحدد ضمن الميزانية وبامتثال كامل.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b2",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b2-span",
+              "text": "ملتزم مديرو المشاريع والمهندسون المعتمدون لدينا والخبراء الفنيون والمصممون الماهرون بالعمل كمهندسي/استشاريي المالك، لتحسين الموارد والمعدات وتسليم المشروع في الوقت المحدد. الوقت من ذهب ولا نسمح للمقاولين بإضاعة الثواني.",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "_id": "page-privacy",
+      "_type": "page",
+      "title": "Privacy Policy",
+      "slug": {
+        "_type": "slug",
+        "current": "privacy"
+      },
+      "content": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "Reliable Company (\"we\", \"our\", or \"us\") is committed to protecting your privacy. This policy explains how we collect, use, and safeguard personal information when you visit our website or contact us.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "We may collect your name, email address, phone number, and project details when you submit our contact form. This information is used solely to respond to your inquiries and provide our services.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b2",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b2-span",
+              "text": "We do not sell or share your personal data with third parties except as required by law or to deliver services you have requested.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b3",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b3-span",
+              "text": "For questions about this policy, contact us at info@reliablecompany.sa.",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "_id": "page-terms",
+      "_type": "page",
+      "title": "Terms of Service",
+      "slug": {
+        "_type": "slug",
+        "current": "terms"
+      },
+      "content": [
+        {
+          "_type": "block",
+          "_key": "b0",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b0-span",
+              "text": "By accessing and using the Reliable Company website, you agree to these Terms of Service. All content on this website is the property of Reliable Company and is protected by applicable copyright laws.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b1",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b1-span",
+              "text": "Information provided on this site is for general reference only and does not constitute professional advice. Specific project requirements should be discussed with our team.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "b2",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b2-span",
+              "text": "We reserve the right to modify these terms at any time. Continued use of the website constitutes acceptance of updated terms.",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pageSeo": {
+    "home": {
+      "key": "home",
+      "label": "Homepage",
+      "path": "/",
+      "seoTitle": "Reliable Company | Project Management & Engineering Services",
+      "seoTitleAlt": "Integrated PMC & Engineering — Saudi Arabia",
+      "seoDescription": "Reliable Company delivers integrated project management consultancy and engineering services — FEED, design management, construction, commissioning, and operations across Saudi Arabia.",
+      "seoDescriptionAlt": "Project management and engineering excellence for desalination, oil & gas, water infrastructure, and industrial projects in KSA.",
+      "seoKeywords": "project management consultancy, engineering services, FEED, PMC, Saudi Arabia, Reliable Company, desalination, industrial plants"
+    },
+    "about": {
+      "key": "about",
+      "label": "About Us",
+      "path": "/about",
+      "seoTitle": "About Us | Reliable Company Engineering",
+      "seoDescription": "Learn about Reliable Company — integrated project management and engineering teams delivering complex industrial projects across Saudi Arabia.",
+      "seoKeywords": "about Reliable Company, engineering company Saudi Arabia, PMC consultancy"
+    },
+    "services": {
+      "key": "services",
+      "label": "Services Listing",
+      "path": "/services",
+      "seoTitle": "Our Services | Project Management & Engineering",
+      "seoDescription": "Explore our project management consultancy and engineering services — FEED, PMC, design management, procurement, construction, commissioning, and operations.",
+      "seoKeywords": "engineering services, PMC services, FEED, construction management, commissioning, Saudi Arabia"
+    },
+    "projects": {
+      "key": "projects",
+      "label": "Case Studies / Projects",
+      "path": "/projects",
+      "seoTitle": "Case Studies & Projects | Reliable Company",
+      "seoDescription": "Portfolio of project management and engineering projects across desalination, oil & gas, water infrastructure, and industrial sectors.",
+      "seoKeywords": "engineering projects, case studies, Saudi Arabia projects, PMC portfolio"
+    },
+    "blog": {
+      "key": "blog",
+      "label": "Blog",
+      "path": "/blog",
+      "seoTitle": "Blog | Engineering Insights",
+      "seoDescription": "Insights and updates from Reliable Company engineering and project management teams across Saudi Arabia.",
+      "seoKeywords": "engineering blog, PMC insights, Saudi infrastructure news"
+    },
+    "contact": {
+      "key": "contact",
+      "label": "Contact",
+      "path": "/contact",
+      "seoTitle": "Contact Us | Reliable Company",
+      "seoDescription": "Contact Reliable Company for project management consultancy and engineering services in Jeddah and across Saudi Arabia.",
+      "seoKeywords": "contact Reliable Company, engineering consultancy Jeddah, PMC contact"
+    },
+    "careers": {
+      "key": "careers",
+      "label": "Careers",
+      "path": "/careers",
+      "seoTitle": "Careers | Join Reliable Company",
+      "seoDescription": "Build your career with Reliable Company — project management and engineering teams across the Kingdom.",
+      "seoKeywords": "engineering careers Saudi Arabia, PMC jobs, Reliable Company careers"
+    },
+    "divisions": {
+      "key": "divisions",
+      "label": "Divisions",
+      "path": "/divisions",
+      "seoTitle": "Our Divisions | PMC & Engineering",
+      "seoDescription": "Project Management Consultancy and Engineering Services — two integrated pillars for seamless project delivery.",
+      "seoKeywords": "PMC division, engineering division, Reliable Company capabilities"
+    },
+    "privacy": {
+      "key": "privacy",
+      "label": "Privacy Policy",
+      "path": "/privacy",
+      "seoTitle": "Privacy Policy | Reliable Company",
+      "seoDescription": "Privacy policy for Reliable Company engineering website.",
+      "seoKeywords": "privacy policy, Reliable Company"
+    },
+    "terms": {
+      "key": "terms",
+      "label": "Terms of Service",
+      "path": "/terms",
+      "seoTitle": "Terms of Service | Reliable Company",
+      "seoDescription": "Terms of service for Reliable Company engineering website.",
+      "seoKeywords": "terms of service, Reliable Company"
+    }
+  },
+  "blogPosts": [
+    {
+      "_id": "blog-1",
+      "title": "Integrated Engineering for Saudi Mega Projects",
+      "slug": "integrated-engineering-saudi-mega-projects",
+      "excerpt": "How multidisciplinary teams deliver complex infrastructure across the Kingdom.",
+      "content": "Saudi Arabia continues to invest in transformative infrastructure — from NEOM and the Red Sea to metro systems and industrial cities.\n\nReliable Engineering brings civil, electrical, mechanical, and IT expertise under one roof to reduce coordination risk and accelerate delivery.",
+      "status": "published",
+      "createdAt": "2026-06-19T11:51:37.345Z",
+      "updatedAt": "2026-06-19T11:51:37.347Z"
+    }
+  ],
+  "careers": [
+    {
+      "_id": "career-1",
+      "title": "Senior Civil Engineer",
+      "department": "Civil Engineering",
+      "location": "Riyadh",
+      "description": "Lead structural design for commercial and infrastructure projects.",
+      "status": "active",
+      "order": 1
+    },
+    {
+      "_id": "career-2",
+      "title": "Electrical Design Engineer",
+      "department": "Electrical Systems",
+      "location": "Jeddah",
+      "description": "Design MV/LV distribution and low-current systems for industrial clients.",
+      "status": "active",
+      "order": 2
+    },
+    {
+      "_id": "career-3",
+      "title": "HVAC Engineer",
+      "department": "Mechanical & HVAC",
+      "location": "Dammam",
+      "description": "Perform load calculations and HVAC design for commercial developments.",
+      "status": "active",
+      "order": 3
+    }
+  ],
+  "careerApplications": [],
+  "enquiries": []
+}

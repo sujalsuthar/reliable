@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-navy: #0a1628;
+    --color-navy-mid: #0d1f3c;
+    --color-brand: #1a4fa0;
+    --color-brand-light: #2a6dd9;
+    --color-accent: #4da3ff;
+    --color-whatsapp: #25d366;
+    --color-text: #1a1a2e;
+    --color-muted: #64748b;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    color: var(--color-text);
+    background: #ffffff;
+    line-height: 1.7;
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea,
+  [role='button'],
+  summary {
+    cursor: pointer;
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea,
+  [role='button'] {
+    @apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  button:disabled,
+  [aria-disabled='true'] {
+    cursor: not-allowed;
+  }
+
+  [dir='rtl'] .icon-rtl-flip {
+    transform: scaleX(-1);
+  }
+}
+
+@layer components {
+  .site-container {
+    @apply mx-auto w-full max-w-[1400px] px-5 sm:px-8 lg:px-10;
+  }
+
+  .section-pad {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-[34px];
+  }
+
+  .section-subtitle {
+    @apply mt-4 max-w-2xl text-base leading-relaxed text-gray-600 sm:text-[17px];
+  }
+
+  .card-base {
+    @apply rounded-xl border border-gray-100 bg-white shadow-card transition-shadow hover:shadow-hover;
+  }
+
+  .btn-primary {
+    @apply inline-flex min-h-10 items-center justify-center rounded-lg bg-primary-600 px-5 text-sm font-medium text-white transition-colors hover:bg-primary-700;
+  }
+
+  .btn-outline-light {
+    @apply inline-flex min-h-10 items-center justify-center rounded-lg border border-gray-200 bg-white px-5 text-sm font-medium text-gray-700 transition-colors hover:border-primary-300 hover:text-primary-600;
+  }
+
+  .interactive {
+    @apply transition-all duration-200 ease-out;
+  }
+
+  .interactive:active:not(:disabled) {
+    transform: scale(0.98);
+  }
+
+  .nav-link {
+    @apply interactive relative whitespace-nowrap text-[15px] transition-colors hover:text-[#2563eb];
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute -bottom-1 start-0 h-0.5 w-0 bg-[#2563eb] transition-all duration-200;
+  }
+
+  .nav-link:hover::after,
+  .nav-link-active::after {
+    @apply w-full;
+  }
+}

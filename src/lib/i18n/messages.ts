@@ -1,0 +1,550 @@
+import type { Locale } from '@/lib/i18n/config'
+
+export type Messages = typeof en
+
+const en = {
+  nav: {
+    services: 'Services',
+    resources: 'Resources',
+    switchToArabic: 'عربي',
+    switchToEnglish: 'English',
+    openMenu: 'Open menu',
+    closeMenu: 'Close menu',
+    viewAllServices: 'View all services',
+    megaTitle: 'PROJECT MANAGEMENT & ENGINEERING',
+    megaEyebrow: 'Reliable Company',
+    megaTagline: 'PMC • ENGINEERING • DELIVERY',
+  },
+  footer: {
+    services: 'Services',
+    company: 'Company',
+    offices: 'Offices',
+    contact: 'Contact',
+  },
+  cookie: {
+    text: 'We use cookies to improve your experience. Please review our',
+    privacy: 'Privacy Policy',
+    and: 'and Cookie Policy.',
+    accept: 'Accept',
+  },
+  contact: {
+    title: 'Contact Us',
+    description:
+      'Reach out to discuss your next engineering project. Our team is ready to help.',
+    home: 'Home',
+    heading: "Let's Build Something Great",
+    subheading:
+      'Share your project requirements and our engineering team will respond within one business day.',
+    officesTitle: 'Our Offices',
+    officesIntro:
+      'Visit one of our offices across the Kingdom or send us a message — we typically respond within one business day.',
+    sendMessage: 'Send Us a Message',
+    mapTitle: 'Our Location',
+    openInMaps: 'Open in Google Maps',
+    mapFallback: 'View location on Google Maps',
+    businessHours: {
+      title: 'Business Hours',
+      weekday: 'Sunday - Thursday: 8:00 AM - 5:00 PM',
+      weekend: 'Friday - Saturday: Closed',
+    },
+    form: {
+      fullName: 'Full Name',
+      email: 'Email Address',
+      phone: 'Phone Number',
+      companyName: 'Company Name',
+      city: 'City',
+      service: 'Service of Interest',
+      message: 'Message',
+      selectCity: 'Select a city',
+      selectService: 'Select a service',
+      optional: 'optional',
+      placeholders: {
+        fullName: 'Enter your full name',
+        email: 'Enter your email',
+        phone: 'Enter your phone number',
+        companyName: 'Your company name (optional)',
+        message: 'Write your message here...',
+      },
+      cities: {
+        Jeddah: 'Jeddah',
+        Riyadh: 'Riyadh',
+        Dammam: 'Dammam',
+        Mecca: 'Mecca',
+        Medina: 'Medina',
+        Khobar: 'Khobar',
+        Other: 'Other',
+      },
+      services: {
+        feed: 'Front-End Engineering (FEED)',
+        pmc: 'Project Management Consultancy',
+        design: 'Design Management',
+        procurement: 'Procurement Management',
+        program: 'Program Management',
+        construction: 'Construction Management',
+        commissioning: 'Commissioning Management',
+        operations: 'Operations & Maintenance',
+        optimization: 'Plant Optimization',
+        other: 'Other',
+      },
+      submit: 'Send Message',
+      sending: 'Sending...',
+      success: 'Thank you! Your message has been sent successfully.',
+      error: 'Something went wrong. Please try again.',
+      errors: {
+        fullName: 'Full name is required.',
+        emailRequired: 'Email is required.',
+        emailInvalid: 'Please enter a valid email address.',
+        phone: 'Phone number is required.',
+        city: 'Please select a city.',
+        service: 'Please select a service.',
+        messageRequired: 'Message is required.',
+        messageShort: 'Message must be at least 10 characters.',
+      },
+    },
+  },
+  pages: {
+    about: {
+      title: 'About Us',
+      description: 'Learn about Reliable Company — project management and engineering.',
+      home: 'Home',
+    },
+    blog: {
+      title: 'Blog',
+      description: 'Engineering insights and company updates.',
+      home: 'Home',
+      readMore: 'Read more',
+    },
+    careers: {
+      title: 'Careers',
+      description: 'Join Reliable Company across Saudi Arabia.',
+      home: 'Home',
+      apply: 'Apply now',
+    },
+    projects: {
+      title: 'Projects',
+      description: 'Explore our portfolio of engineering projects.',
+      home: 'Home',
+    },
+    services: {
+      title: 'Services',
+      description: 'Integrated PMC and engineering services.',
+      home: 'Home',
+    },
+    divisions: {
+      title: 'Divisions',
+      description: 'Our three core capability pillars.',
+      home: 'Home',
+    },
+    privacy: { title: 'Privacy Policy', home: 'Home' },
+    terms: { title: 'Terms of Service', home: 'Home' },
+  },
+  common: {
+    home: 'Home',
+    learnMore: 'Learn more',
+    viewProject: 'View project',
+    viewAll: 'View all',
+    services: 'Services',
+    projects: 'Projects',
+    blog: 'Blog',
+    careers: 'Careers',
+    about: 'About',
+    divisions: 'Divisions',
+    privacy: 'Privacy Policy',
+    terms: 'Terms of Service',
+    comingSoon: 'Full description coming soon.',
+    backHome: 'Back to home',
+  },
+  pageHero: {
+    badge: 'Reliable Company',
+  },
+  aboutPage: {
+    heroTitle: 'Who We Are',
+    heroDescription:
+      'A specialized integrated Project Management consultancy and Engineering services group operating across the UAE and Saudi Arabia since 2016.',
+    team: 'Our Team',
+    values: 'Our Values',
+    certifications: 'Certifications & Qualifications',
+    imageAlt: 'Reliable Company projects and expertise',
+    fallback:
+      'Reliable Company is your trusted partner for project management and engineering across industrial and infrastructure sectors in Saudi Arabia.',
+  },
+  sections: {
+    viewAllServices: 'View all services',
+    viewAllProjects: 'View all projects',
+    viewAllPosts: 'View all posts',
+  },
+  servicePage: {
+    heroTitle: 'Our Expertise',
+    heroDescription:
+      'Integrated Project Management consultancy and Engineering services — from FEED and design management through construction, commissioning, operations, and optimization.',
+    empty: 'Services will appear here once added in the CMS.',
+  },
+  serviceDetail: {
+    ctaTitle: 'Ready to start your project?',
+    ctaDescription:
+      'Speak with our engineering team about how we can support your next project.',
+    ctaButton: 'Request a Consultation',
+    viewAllServices: 'View All Services',
+    related: 'Related Services',
+    servicesLabel: 'Services',
+    serviceContentLabel: 'Service Content',
+    benefitsLabel: 'Benefits',
+    processLabel: 'Process',
+    faqsLabel: 'FAQs',
+    keyBenefitsLabel: 'Key Benefits',
+    defaultOverviewTitle: 'Our {service} Services',
+    defaultBenefitsTitle: 'Why Choose {service}',
+    defaultProcessTitle: 'Our Process',
+    defaultFaqsTitle: 'Frequently Asked Questions',
+  },
+  projectPage: {
+    heroTitle: 'Our Projects',
+    heroDescription:
+      'A portfolio of project management and engineering projects delivered across desalination, oil & gas, water infrastructure, and industrial sectors.',
+    empty: 'Projects will appear here once added in the CMS.',
+    noResults: 'No projects found',
+    noResultsHint: 'Try adjusting your filters or search query.',
+  },
+  projectDetail: {
+    details: 'Project Details',
+    location: 'Location',
+    completed: 'Completed',
+    division: 'Division',
+    tags: 'Tags',
+  },
+  divisionsPage: {
+    heroTitle: 'Our Core Capabilities',
+    heroDescription:
+      'Project Management Consultancy and Engineering Services — two integrated pillars for seamless project delivery.',
+    expertise: 'Multidisciplinary expertise',
+    expertiseDesc: 'Integrated teams across PMC and engineering for complex industrial projects.',
+  },
+  blogPage: {
+    heroTitle: 'Blog',
+    heroDescription: 'Insights and updates from our engineering teams across Saudi Arabia.',
+    empty: 'No blog posts published yet.',
+  },
+  careersPage: {
+    heroTitle: 'Careers',
+    heroDescription:
+      'Build your career with Reliable Company — project management and engineering teams delivering projects across the Kingdom.',
+    empty: 'No open positions at the moment. Check back soon.',
+    apply: 'Apply now',
+  },
+  ctaForm: {
+    emailInvalid: 'Please enter a valid email address.',
+    success: "Thank you! We'll be in touch soon.",
+  },
+  projectFilter: {
+    all: 'All',
+    civil: 'PMC',
+    electrical: 'Engineering',
+    mechanical: 'Operations',
+    search: 'Search by title...',
+  },
+  serviceMenu: [
+    {
+      title: 'Engineering Services',
+      tagline: 'FEED • DESIGN • PROCUREMENT',
+      href: '/services',
+      links: [
+        { label: 'Front-End Engineering (FEED)', href: '/services/front-end-engineering-feed' },
+        { label: 'Design Management', href: '/services/detailed-engineering-design-management' },
+        { label: 'Procurement Management', href: '/services/procurement-management' },
+        { label: 'Commissioning Management', href: '/services/commissioning-management' },
+        { label: 'Operations & Maintenance', href: '/services/operations-maintenance' },
+        { label: 'Plant Optimization', href: '/services/industrial-plant-optimization' },
+      ],
+    },
+    {
+      title: 'Project Management',
+      tagline: 'PMC • PROGRAM • CONSTRUCTION',
+      href: '/services',
+      links: [
+        { label: 'Project Management Consultancy', href: '/services/project-management-consultancy' },
+        { label: 'Program Management', href: '/services/program-management' },
+        { label: 'Construction Management', href: '/services/construction-management' },
+      ],
+    },
+  ],
+}
+
+const ar: Messages = {
+  nav: {
+    services: 'الخدمات',
+    resources: 'الموارد',
+    switchToArabic: 'عربي',
+    switchToEnglish: 'English',
+    openMenu: 'فتح القائمة',
+    closeMenu: 'إغلاق القائمة',
+    viewAllServices: 'عرض جميع الخدمات',
+    megaTitle: 'إدارة المشاريع والهندسة',
+    megaEyebrow: 'شركة ريلايبل',
+    megaTagline: 'PMC • هندسة • تسليم',
+  },
+  footer: {
+    services: 'الخدمات',
+    company: 'الشركة',
+    offices: 'المكاتب',
+    contact: 'اتصل بنا',
+  },
+  cookie: {
+    text: 'نستخدم ملفات تعريف الارتباط لتحسين تجربتك. يرجى مراجعة',
+    privacy: 'سياسة الخصوصية',
+    and: 'وسياسة ملفات تعريف الارتباط.',
+    accept: 'موافق',
+  },
+  contact: {
+    title: 'اتصل بنا',
+    description: 'تواصل معنا لمناقشة مشروعك الهندسي القادم. فريقنا جاهز لمساعدتك.',
+    home: 'الرئيسية',
+    heading: 'لنبني معاً شيئاً عظيماً',
+    subheading:
+      'شاركنا متطلبات مشروعك وسيرد فريقنا الهندسي خلال يوم عمل واحد.',
+    officesTitle: 'مكاتبنا',
+    officesIntro:
+      'زر أحد مكاتبنا في المملكة أو أرسل لنا رسالة — نرد عادة خلال يوم عمل واحد.',
+    sendMessage: 'أرسل لنا رسالة',
+    mapTitle: 'موقعنا',
+    openInMaps: 'فتح في خرائط Google',
+    mapFallback: 'عرض الموقع على خرائط Google',
+    businessHours: {
+      title: 'ساعات العمل',
+      weekday: 'الأحد - الخميس: 8:00 صباحاً - 5:00 مساءً',
+      weekend: 'الجمعة - السبت: مغلق',
+    },
+    form: {
+      fullName: 'الاسم الكامل',
+      email: 'البريد الإلكتروني',
+      phone: 'رقم الهاتف',
+      companyName: 'اسم الشركة',
+      city: 'المدينة',
+      service: 'الخدمة المطلوبة',
+      message: 'الرسالة',
+      selectCity: 'اختر المدينة',
+      selectService: 'اختر الخدمة',
+      optional: 'اختياري',
+      placeholders: {
+        fullName: 'أدخل اسمك الكامل',
+        email: 'أدخل بريدك الإلكتروني',
+        phone: 'أدخل رقم هاتفك',
+        companyName: 'اسم شركتك (اختياري)',
+        message: 'اكتب رسالتك هنا...',
+      },
+      cities: {
+        Jeddah: 'جدة',
+        Riyadh: 'الرياض',
+        Dammam: 'الدمام',
+        Mecca: 'مكة',
+        Medina: 'المدينة',
+        Khobar: 'الخبر',
+        Other: 'أخرى',
+      },
+      services: {
+        feed: 'التصميم الهندسي الأولي (FEED)',
+        pmc: 'استشارات إدارة المشاريع',
+        design: 'إدارة التصميم',
+        procurement: 'إدارة المشتريات',
+        program: 'إدارة البرامج',
+        construction: 'إدارة الإنشاءات',
+        commissioning: 'إدارة التشغيل التجريبي',
+        operations: 'العمليات والصيانة',
+        optimization: 'تحسين المنشآت',
+        other: 'أخرى',
+      },
+      submit: 'إرسال الرسالة',
+      sending: 'جاري الإرسال...',
+      success: 'شكراً لك! تم إرسال رسالتك بنجاح.',
+      error: 'حدث خطأ. يرجى المحاولة مرة أخرى.',
+      errors: {
+        fullName: 'الاسم الكامل مطلوب.',
+        emailRequired: 'البريد الإلكتروني مطلوب.',
+        emailInvalid: 'يرجى إدخال بريد إلكتروني صالح.',
+        phone: 'رقم الهاتف مطلوب.',
+        city: 'يرجى اختيار المدينة.',
+        service: 'يرجى اختيار الخدمة.',
+        messageRequired: 'الرسالة مطلوبة.',
+        messageShort: 'يجب أن تكون الرسالة 10 أحرف على الأقل.',
+      },
+    },
+  },
+  pages: {
+    about: {
+      title: 'من نحن',
+      description: 'تعرف على شركة ريلايبل — إدارة المشاريع والهندسة والأمن السيبراني.',
+      home: 'الرئيسية',
+    },
+    blog: {
+      title: 'المدونة',
+      description: 'رؤى هندسية وتحديثات الشركة.',
+      home: 'الرئيسية',
+      readMore: 'اقرأ المزيد',
+    },
+    careers: {
+      title: 'الوظائف',
+      description: 'انضم إلى شركة ريلايبل في جميع أنحاء المملكة.',
+      home: 'الرئيسية',
+      apply: 'قدّم الآن',
+    },
+    projects: {
+      title: 'المشاريع',
+      description: 'استكشف محفظة مشاريعنا الهندسية.',
+      home: 'الرئيسية',
+    },
+    services: {
+      title: 'الخدمات',
+      description: 'خدمات PMC والهندسة والأمن السيبراني المتكاملة.',
+      home: 'الرئيسية',
+    },
+    divisions: {
+      title: 'الأقسام',
+      description: 'ركائزنا الثلاث الأساسية للقدرات.',
+      home: 'الرئيسية',
+    },
+    privacy: { title: 'سياسة الخصوصية', home: 'الرئيسية' },
+    terms: { title: 'الشروط والأحكام', home: 'الرئيسية' },
+  },
+  common: {
+    home: 'الرئيسية',
+    learnMore: 'اعرف المزيد',
+    viewProject: 'عرض المشروع',
+    viewAll: 'عرض الكل',
+    services: 'الخدمات',
+    projects: 'المشاريع',
+    blog: 'المدونة',
+    careers: 'الوظائف',
+    about: 'من نحن',
+    divisions: 'الأقسام',
+    privacy: 'سياسة الخصوصية',
+    terms: 'الشروط والأحكام',
+    comingSoon: 'الوصف الكامل قريباً.',
+    backHome: 'العودة للرئيسية',
+  },
+  pageHero: {
+    badge: 'شركة ريلايبل',
+  },
+  aboutPage: {
+    heroTitle: 'من نحن',
+    heroDescription:
+      'مجموعة متخصصة في استشارات إدارة المشاريع المتكاملة والهندسة وخدمات الأمن السيبراني، تعمل في الإمارات والسعودية منذ 2016.',
+    team: 'فريقنا',
+    values: 'قيمنا',
+    certifications: 'الشهادات والمؤهلات',
+    imageAlt: 'مشاريع وخبرات شركة ريلايبل',
+    fallback:
+      'شركة ريلايبل شريكك الموثوق في إدارة المشاريع والهندسة والأمن السيبراني عبر القطاعات الصناعية والبنية التحتية في المملكة.',
+  },
+  sections: {
+    viewAllServices: 'عرض جميع الخدمات',
+    viewAllProjects: 'عرض جميع المشاريع',
+    viewAllPosts: 'عرض جميع المقالات',
+  },
+  servicePage: {
+    heroTitle: 'خبراتنا',
+    heroDescription:
+      'استشارات إدارة المشاريع والهندسة والأمن السيبراني — من FEED وإدارة التصميم إلى الإنشاءات والتشغيل التجريبي والعمليات والأمن الرقمي.',
+    empty: 'ستظهر الخدمات هنا عند إضافتها في نظام إدارة المحتوى.',
+  },
+  serviceDetail: {
+    ctaTitle: 'هل أنت مستعد لبدء مشروعك؟',
+    ctaDescription: 'تحدث مع فريقنا الهندسي حول كيفية دعم مشروعك القادم.',
+    ctaButton: 'طلب استشارة',
+    viewAllServices: 'عرض جميع الخدمات',
+    related: 'خدمات ذات صلة',
+    servicesLabel: 'الخدمات',
+    serviceContentLabel: 'محتوى الخدمة',
+    benefitsLabel: 'الفوائد',
+    processLabel: 'المنهجية',
+    faqsLabel: 'الأسئلة الشائعة',
+    keyBenefitsLabel: 'الفوائد الرئيسية',
+    defaultOverviewTitle: 'خدمات {service} لدينا',
+    defaultBenefitsTitle: 'لماذا تختار {service}',
+    defaultProcessTitle: 'منهجيتنا',
+    defaultFaqsTitle: 'الأسئلة الشائعة',
+  },
+  projectPage: {
+    heroTitle: 'مشاريعنا',
+    heroDescription:
+      'محفظة مشاريع في إدارة المشاريع والهندسة عبر التحلية والنفط والغاز والبنية التحتية المائية والقطاعات الصناعية.',
+    empty: 'ستظهر المشاريع هنا عند إضافتها في نظام إدارة المحتوى.',
+    noResults: 'لم يتم العثور على مشاريع',
+    noResultsHint: 'جرّب تعديل عوامل التصفية أو استعلام البحث.',
+  },
+  projectDetail: {
+    details: 'تفاصيل المشروع',
+    location: 'الموقع',
+    completed: 'تاريخ الإنجاز',
+    division: 'القسم',
+    tags: 'الوسوم',
+  },
+  divisionsPage: {
+    heroTitle: 'قدراتنا الأساسية',
+    heroDescription:
+      'استشارات إدارة المشاريع، والخدمات الهندسية، والأمن السيبراني والرقمي — ثلاث ركائز متكاملة لتسليم المشاريع.',
+    expertise: 'خبرة متعددة التخصصات',
+    expertiseDesc: 'فرق متكاملة في PMC والهندسة والأمن السيبراني للمشاريع الصناعية المعقدة.',
+  },
+  blogPage: {
+    heroTitle: 'المدونة',
+    heroDescription: 'رؤى وتحديثات من فرقنا الهندسية في جميع أنحاء المملكة.',
+    empty: 'لا توجد مقالات منشورة بعد.',
+  },
+  careersPage: {
+    heroTitle: 'الوظائف',
+    heroDescription:
+      'ابنِ مسيرتك المهنية مع شركة ريلايبل — فرق إدارة المشاريع والهندسة في جميع أنحاء المملكة.',
+    empty: 'لا توجد وظائف شاغرة حالياً. تحقق لاحقاً.',
+    apply: 'قدّم الآن',
+  },
+  ctaForm: {
+    emailInvalid: 'يرجى إدخال بريد إلكتروني صالح.',
+    success: 'شكراً لك! سنتواصل معك قريباً.',
+  },
+  projectFilter: {
+    all: 'الكل',
+    civil: 'PMC',
+    electrical: 'الهندسة',
+    mechanical: 'العمليات',
+    search: 'ابحث بالعنوان...',
+  },
+  serviceMenu: [
+    {
+      title: 'الخدمات الهندسية',
+      tagline: 'FEED • تصميم • مشتريات',
+      href: '/services',
+      links: [
+        { label: 'التصميم الهندسي الأولي (FEED)', href: '/services/front-end-engineering-feed' },
+        { label: 'إدارة التصميم', href: '/services/detailed-engineering-design-management' },
+        { label: 'إدارة المشتريات', href: '/services/procurement-management' },
+        { label: 'إدارة التشغيل التجريبي', href: '/services/commissioning-management' },
+        { label: 'العمليات والصيانة', href: '/services/operations-maintenance' },
+        { label: 'تحسين المنشآت', href: '/services/industrial-plant-optimization' },
+      ],
+    },
+    {
+      title: 'إدارة المشاريع',
+      tagline: 'استشارات • برامج • إنشاءات',
+      href: '/services',
+      links: [
+        { label: 'استشارات إدارة المشاريع', href: '/services/project-management-consultancy' },
+        { label: 'إدارة البرامج', href: '/services/program-management' },
+        { label: 'إدارة الإنشاءات', href: '/services/construction-management' },
+      ],
+    },
+  ],
+}
+
+const catalog: Record<Locale, Messages> = { en, ar }
+
+export function getMessages(locale: Locale): Messages {
+  return catalog[locale] ?? en
+}
+
+export function formatDate(date: string | Date, locale: Locale): string {
+  const value = typeof date === 'string' ? new Date(date) : date
+  return value.toLocaleDateString(locale === 'ar' ? 'ar-SA' : 'en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  })
+}
