@@ -83,9 +83,27 @@ Content is stored in `data/cms-store.json` (created automatically on first run f
 |---------|-------------|
 | `npm run dev` | Start Next.js dev server |
 | `npm run build` | Production build |
-| `npm run start` | Serve production build |
+| `npm run start` | Serve production build (`next start`) |
+| `npm run start:cpanel` | Serve via `server.js` (cPanel entry point) |
 | `npm run lint` | Run ESLint |
 | `npm run type-check` | TypeScript check without emit |
+
+## Deploy to MassarCloud cPanel (subdomain)
+
+Host at **https://engineering.reliablecompany.sa** while [reliablecompany.sa](https://reliablecompany.sa) stays on the main site.
+
+**Full guide:** [docs/DEPLOY_CPANEL.md](docs/DEPLOY_CPANEL.md)
+
+Quick steps:
+
+1. cPanel → **Subdomains** → create `engineering.reliablecompany.sa`
+2. Upload project to `~/engineering.reliablecompany.sa` (not `public_html`)
+3. Terminal: `npm install && npm run build`
+4. cPanel → **Setup Node.js App** → Production, URL `engineering.reliablecompany.sa`, startup file **`server.js`**
+5. Add env vars: `NODE_ENV`, `SITE_URL`, `ADMIN_USERNAME`, `ADMIN_PASSWORD`, `ADMIN_SESSION_SECRET`
+6. **Restart** app → enable SSL for the subdomain
+
+CMS uses `data/cms-store.json` and `public/uploads/` on disk — **no KV or Blob** needed on cPanel.
 
 ## Deploy to Vercel
 
@@ -106,6 +124,9 @@ Content is stored in `data/cms-store.json` (created automatically on first run f
 | `ADMIN_USERNAME` | Yes | Admin login username (default: `admin`) |
 | `ADMIN_PASSWORD` | Yes | Admin login password |
 | `ADMIN_SESSION_SECRET` | Recommended | Secret for signing session cookies (falls back to password in dev) |
+| `SITE_URL` | Production | Public URL, e.g. `https://engineering.reliablecompany.sa` (SEO & sitemap) |
+| `NODE_ENV` | Production | Set to `production` on cPanel/VPS |
+| `KV_REST_API_*` / `BLOB_*` | Vercel only | Leave empty on cPanel — CMS uses local files |
 
 Never commit `.env.local` or secrets to git.
 

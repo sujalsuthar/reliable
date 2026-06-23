@@ -4,8 +4,9 @@ import type { PageSeoKey } from '@/lib/cms/page-seo'
 import type { Locale } from '@/lib/i18n/config'
 import { getLocale } from '@/lib/i18n/locale'
 import { getPageSeoEntry } from '@/lib/content'
+import { getSiteUrl } from '@/lib/site-url'
 
-const BASE_URL = 'https://engineering.reliablecompany.sa'
+const BASE_URL = getSiteUrl()
 const SITE_NAME = 'Reliable Company'
 const SITE_NAME_AR = 'شركة ريلايبل'
 const DEFAULT_OG_IMAGE = '/og-default.png'
