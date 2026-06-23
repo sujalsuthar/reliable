@@ -1,6 +1,6 @@
 import type { NextRequest } from 'next/server'
 
-/** Best-effort client IP behind reverse proxies (cPanel, Nginx, Vercel). */
+/** Best-effort client IP behind reverse proxies (Vercel, Nginx, etc.). */
 export function getClientIp(request: NextRequest | Request): string {
   const forwarded = request.headers.get('x-forwarded-for')
   if (forwarded) {

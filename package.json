@@ -9,7 +9,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "start:cpanel": "node server.js",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "sync-store": "npx tsx scripts/sync-store.ts"

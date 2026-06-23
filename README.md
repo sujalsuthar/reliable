@@ -83,39 +83,42 @@ Content is stored in `data/cms-store.json` (created automatically on first run f
 |---------|-------------|
 | `npm run dev` | Start Next.js dev server |
 | `npm run build` | Production build |
-| `npm run start` | Serve production build (`next start`) |
-| `npm run start:cpanel` | Serve via `server.js` (cPanel entry point) |
+| `npm run start` | Serve production build |
 | `npm run lint` | Run ESLint |
 | `npm run type-check` | TypeScript check without emit |
 
-## Deploy to MassarCloud cPanel (subdomain)
-
-Host at **https://engineering.reliablecompany.sa** while [reliablecompany.sa](https://reliablecompany.sa) stays on the main site.
-
-**Full guide:** [docs/DEPLOY_CPANEL.md](docs/DEPLOY_CPANEL.md)
-
-Quick steps:
-
-1. cPanel → **Subdomains** → create `engineering.reliablecompany.sa`
-2. Upload project to `~/engineering.reliablecompany.sa` (not `public_html`)
-3. Terminal: `npm install && npm run build`
-4. cPanel → **Setup Node.js App** → Production, URL `engineering.reliablecompany.sa`, startup file **`server.js`**
-5. Add env vars: `NODE_ENV`, `SITE_URL`, `ADMIN_USERNAME`, `ADMIN_PASSWORD`, `ADMIN_SESSION_SECRET`
-6. **Restart** app → enable SSL for the subdomain
-
-CMS uses `data/cms-store.json` and `public/uploads/` on disk — **no KV or Blob** needed on cPanel.
-
 ## Deploy to Vercel
 
-1. Push the repo to **GitHub** (or GitLab/Bitbucket).
-2. In [Vercel](https://vercel.com), click **Add New Project** and import the repository.
-3. Vercel detects **Next.js** automatically (`vercel.json` sets framework and build/install commands).
-4. Add all [environment variables](#environment-variables) in **Project → Settings → Environment Variables** for Production (and Preview if needed).
-5. Deploy. Vercel runs `npm install` and `npm run build` on each push.
+**Full guide:** [docs/DEPLOY_VERCEL.md](docs/DEPLOY_VERCEL.md)
 
-### Docker / standalone output
+1. Push the repo to **GitHub**
+2. [Vercel](https://vercel.com) → **Add New Project** → import the repository
+3. **Storage** → link **Upstash Redis (KV)** for CMS content
+4. **Storage** → link **Vercel Blob** for image uploads
+5. **Settings → Environment Variables** (Production):
 
-`next.config.mjs` sets `output: 'standalone'` for Docker-compatible builds. After `npm run build`, the standalone server is in `.next/standalone`.
+   | Variable | Required |
+   |----------|----------|
+   | `ADMIN_USERNAME` | Yes |
+   | `ADMIN_PASSWORD` | Yes |
+   | `ADMIN_SESSION_SECRET` | Yes (min. 32 chars) |
+   | `SITE_URL` | `https://engineering.reliablecompany.sa` |
+
+6. **Deploy** — each push to `main` redeploys automatically
+
+### Custom domain
+
+Vercel → **Settings → Domains** → add `engineering.reliablecompany.sa` → set DNS CNAME as shown by Vercel.
+
+### Local vs Vercel
+
+| | Local (`npm run dev`) | Vercel production |
+|---|----------------------|-------------------|
+| CMS content | `data/cms-store.json` | Upstash Redis (KV) |
+| Image uploads | `public/uploads/` | Vercel Blob |
+| Admin env vars | `.env.local` | Vercel dashboard |
+
+Commit `data/cms-store.json` so the first production deploy seeds KV with your content.
 
 ## Environment variables
 
@@ -124,9 +127,10 @@ CMS uses `data/cms-store.json` and `public/uploads/` on disk — **no KV or Blob
 | `ADMIN_USERNAME` | Yes | Admin login username (default: `admin`) |
 | `ADMIN_PASSWORD` | Yes | Admin login password |
 | `ADMIN_SESSION_SECRET` | **Required in production** | Secret for signing session cookies (min. 32 characters) |
-| `SITE_URL` | Production | Public URL, e.g. `https://engineering.reliablecompany.sa` (SEO & sitemap) |
-| `NODE_ENV` | Production | Set to `production` on cPanel/VPS |
-| `KV_REST_API_*` / `BLOB_*` | Vercel only | Leave empty on cPanel — CMS uses local files |
+| `SITE_URL` | Production | Public URL, e.g. `https://engineering.reliablecompany.sa` |
+| `KV_REST_API_URL` | Vercel production | From linked Upstash Redis store |
+| `KV_REST_API_TOKEN` | Vercel production | From linked Upstash Redis store |
+| `BLOB_READ_WRITE_TOKEN` | Vercel production | From linked Vercel Blob store |
 
 Never commit `.env.local` or secrets to git.
 
